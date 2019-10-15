@@ -6,10 +6,14 @@
     <title>Title</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <div class="alert alert-primary" role="alert">
+        Django Forms  <a href="#" class="snippet_details"></a>
+    </div>
 </head>
-<body style="padding: 50px">
+<body>
+<div class="container mt-4">
 
-{% crispy form form.helper %}
-
+    {% crispy form form.helper %}
+</div>
 </body>
 </html>
